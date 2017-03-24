@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<!-- there are two attributes to a form.
+	first one being Action - where the form sends data to
+	and method - what HTTP method (get /post) -->
+
+
+<!-- <form> -->
+
+<!-- if you add input name into an input it generates a query
+e.g. user inputs Rusty in username and password rustyscat
+will generate query .html?username=Rusty&password=rustyscat -->
+<!-- <label>
+Username: 
+<input name="username" type="text" placeholder ="username">
+</label>
+
+<label>
+	Password:
+	<input name="password" type="password" placeholder="password">
+</label>
+
+<input type="submit">	
+
+</form> -->
+
+<!--alternate way of making labels
+here as long as the label for field matches the input id field it 
+will generate a label for that id
+ -->
+<form>
+	<label for="username">Username:</label>
+	<input id="username" type="text">
+	<label for="password">Password:</label>
+	<input id="password" type="password">
+	<button>Login</button>
+
+</form>
+
+
+
+</body>
+</html>
